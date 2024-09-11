@@ -27,6 +27,8 @@ class GFButton: UIButton {
     
     private func configure() {
         configuration = .tinted()
+        configuration?.baseForegroundColor = .white
+        layer.cornerRadius = 10
         translatesAutoresizingMaskIntoConstraints = false
     }
     
